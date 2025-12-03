@@ -1,0 +1,8 @@
+[submodule "ferepo"]
+	path = ferepo
+	url = https://lab.ssafy.com/chac_2/ferepo.git
+	branch = dev
+[submodule "berepo"]
+	path = berepo
+	url = https://lab.ssafy.com/chac_2/berepo.git
+	branch = dev
