@@ -1,0 +1,26 @@
+# Java & Spring Boot
+*.class
+*.jar
+*.war
+*.log
+
+# Maven & Gradle
+target/
+build/
+.gradle/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Credentials
+*.pem
+*.key
+.env
+application-secret.yml

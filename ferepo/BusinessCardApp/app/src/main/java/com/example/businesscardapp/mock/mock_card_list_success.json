@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "message": "명함 목록 조회 성공",
+  "result": [
+    {
+      "cardId": 1,
+      "name": "김싸피",
+      "phone": "010-1234-5678",
+      "company": "싸피",
+      "imageUrl": "https://cdn.cardnest.io/card/1.jpg",
+      "isDigital": true,
+      "isConfirmed": true,
+      "isFavorite": false,
+      "createdAt": "2025-07-22T10:15:30",
+      "updatedAt": "2025-07-25T14:00:00"
+    },
+    {
+      "cardId": 2,
+      "name": "박싸피",
+      "phone": "010-1111-2222",
+      "company": "싸피",
+      "imageUrl": "https://cdn.cardnest.io/card/2.jpg",
+      "isDigital": true,
+      "isConfirmed": false,
+      "isFavorite": true,
+      "createdAt": "2025-07-22T10:15:30",
+      "updatedAt": "2025-07-25T14:00:00"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# ========== Java ==========
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === 환경 설정 파일 ===
+.env
+*.env
+
+# === 로그 / 리포트 ====
+*.log
+*.out
+*.report
+business_card_zip/build/reports/
+
+# ========== 테스트 및 커버리지 ==========
+test-output/
+coverage/
+jacoco.exec
+
+# ========== Windows OS 관련 ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# SSL 인증서
+src/main/resources/keystore.p12

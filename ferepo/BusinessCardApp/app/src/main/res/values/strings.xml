@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusinessCardApp</string>
+    <string name="overlay_name_placeholder">이름 없음</string>
+    <string name="overlay_companypos_placeholder">회사 없음 · 직책 없음</string>
+    <string name="overlay_memo_placeholder">메모 없음</string>
+    <string name="overlay_profile_desc">발신자 프로필 이미지</string>
+    <string name="close">닫기</string>
+    <string name="untitled">제목 없음</string>
+
+    <!-- 필요하면 빈 문자열도 하나 만들어두면 편해요 -->
+    <string name="blank"></string>
+</resources>

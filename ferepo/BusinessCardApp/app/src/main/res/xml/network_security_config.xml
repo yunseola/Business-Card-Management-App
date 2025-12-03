@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- i13e201.p.ssafy.io 도메인 설정 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">i13e201.p.ssafy.io</domain>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </domain-config>
+    
+    <!-- 10.0.2.2 도메인 설정 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <trust-anchors>
+            <certificates src="@raw/selfsigned" />
+        </trust-anchors>
+    </domain-config>
+    
+    <!-- 클로바 OCR API -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">xr2k67apgb.apigw.ntruss.com</domain>
+    </domain-config>
+    
+    <!-- OpenAI API -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">api.openai.com</domain>
+    </domain-config>
+    
+    <!-- SSAFY GPT-4o-mini API -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">gms.ssafy.io</domain>
+    </domain-config>
+    
+    <!-- 기본 설정 -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config> 

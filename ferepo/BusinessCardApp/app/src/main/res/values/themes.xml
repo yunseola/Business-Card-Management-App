@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BusinessCardApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- 테마 설정 -->
+    </style>
+
+    <!-- res/values/themes.xml -->
+    <style name="Theme.IncomingCall" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 필요 시 색상 커스터마이징 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.Material3.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BusinessCardApp.Incoming.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 배경 투명 + 상태/내비바 투명 (필요 시) -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
